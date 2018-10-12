@@ -23,6 +23,11 @@ Bidirectional list(for easier reverse operation)
 结果：50% 只过了2个， 其余均Runtime Error (signal 6), 出现不明原因异常退出程序，待debug;
 不想做了，心态炸了。
 
+## 复杂度
+空间复杂度：$ O(n) $
+时间复杂度：printText操作 $ O(n) $
+	   其余操作均为   $ O(1) $
+
 - 3.
 操作：修复提交2中的bug：Myerase函数中的参数错了；
 结果：50% 90% 全过，worst case 18 time 668ms;
